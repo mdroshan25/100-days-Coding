@@ -25,3 +25,30 @@ for n in range(1,10):
     else:
         print(f"{n} is prime no")
 """
+#Loop while for the printing numbers
+def whileloop(x):
+    y=0
+    while(y<x):
+        print(y)
+        y=y+1
+        
+#print number using for loop
+def forloop(x):
+    y=0
+    for i in range(y,x):
+        print(i)
+        
+ #print even or odd based on the condition
+def printodd(x):
+     y=0
+     for i in range(y,x):
+         if(i%2 != 0): continue
+         print("Even No: ",i)
+         
+     for i in range(y,x):
+         if(i%2 == 0): continue
+         print("Odd No: ",i)
+
+printodd(10)
+#whileloop(10)
+#forloop(10)
